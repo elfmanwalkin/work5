@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap 4 Website</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top"> <!--obvious--> 
+    <div class="container-fluid"> <!--takes up 100% of screen-->
+        <a class="navbar-brand" href="index.html">
+            <img id="itunes" src="img/itunes.png" alt="company logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto active text-center"> <!--active, nav will push to right of container-->
+                <li class="nav-item"> <!--self-explanatory-->
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="#">Team</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="#">Connect</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+    <!-- Image Slider -->
+    <div id="slides" class="carousel slide" data-ride="carousel">
+       <ul class="carousel-indicators">
+            <li data-target="#slides" data-slide-to="0" class="active"></li>
+            <li data-target="#slides" data-slide-to="1"></li>
+            <li data-target="#slides" data-slide-to="2"></li>
+       </ul>
+       <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://source.unsplash.com/1600x900/?nature,trees" alt="first slide">
+                <div class="carousel-caption">
+                    <h1 class="display-2">Trees</h1>
+                    <h3>Vivid Images</h3>
+                    <button type="button" class="btn btn-outline-light btn-lg">View More</button>
+                    <button type="button" class="btn btn-primary btn-lg">View Other</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://source.unsplash.com/1600x900/?nature,water" alt="second slide">
+                <div class="carousel-caption">
+                    <h1 class="display-2">Water</h1>
+                    <button type="button" class="btn btn-outline-light btn-lg">View More</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://source.unsplash.com/1600x900/?nature,flowers" alt="third slide">
+                <div class="carousel-caption">
+                    <h1 class="display-2">Flowers</h1>
+                    <button type="button" class="btn btn-outline-light btn-lg">View More</button>
+                </div>
+            </div>
+       </div> 
+    </div>
+    <!-- Jumbotron -->
+    <div class="container-fluid">
+    <div class="row jumbotron">
+        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultrices nisi eu magna accumsan elementum.</p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+            <a href="#"><button class="btn btn-outline-secondary btn-lg">Click Me!</button></a>
+        </div>
+    </div>
+    </div>
+    <!-- Welcome Section -->
+    <div class="container-fluid padding">
+    <div class="row text-center welcome">
+        <div class="col-12">
+            <h1 class="display-4">Lorem ipsum dolor.</h1>
+        </div>
+        <hr>
+        <div class="col-12">
+            <p class="lead">Nam a porttitor eros. Nunc et lorem eget tortor tempor hendrerit. Fusce pretium mauris nec convallis porttitor.</p>
+        </div>
+    </div>
+    </div>
+    <!-- Three Column Section -->
+    <div class="container-fluid padding">
+    <div class="row text-center padding">
+        <div class="col-xs-12 col-md-4">
+            <i class="fas fa-code"></i>
+            <h3>HTML5</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="col-xs-12 col-md-4">
+            <i class="fas fa-bold"></i>
+            <h3>BOOTSTRAP</h3>
+            <p>Nullam eget mauris in tellus dapibus porta.</p>
+        </div>
+        <div class="col-xs-12 col-md-4">
+             <i class="fab fa-css3"></i>
+             <h3>CSS3</h3>
+             <p>In congue erat nibh, vel commodo velit volutpat vitae.</p>
+        </div>
+    </div>
+    <hr class="my-4">
+    </div>
+    <!-- Two Column Section -->
+    <div class="container-fluid padding">
+    <div class="row padding">
+        <div class="col-lg-6">
+            <h2>Fusce ultricies magna iaculis.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fringilla faucibus sapien eget lacinia. Maecenas blandit vitae nulla et congue.</p>
+            <p>Pellentesque nulla urna, vehicula quis lobortis nec, bibendum ac sem. Donec et nunc ac sapien scelerisque consectetur. Nunc id massa turpis. Maecenas suscipit accumsan interdum. Praesent eu auctor purus, sit amet venenatis odio. Vivamus ac risus accumsan, vulputate sapien at, sagittis neque.</p>
+            <p>Nunc quis sollicitudin libero, eu ultrices leo. Nulla euismod mollis enim non facilisis. Integer mauris mauris, feugiat ac varius nec, finibus id mi. Sed dignissim leo sit amet hendrerit lobortis.</p>
+            <a href="#" class="btn btn-primary padding1">Learn More</a>
+        </div>
+        <div class="col-lg-6">
+            <img src="https://source.unsplash.com/user/erondu/500x400" class="image-fluid" alt="random image">
+        </div>
+    </div>
+    </div>
+    <hr class="my-4">
+    <!-- Emoji Section -->
+    <button class="fun" data-toggle="collapse" data-target="#emoji">Click For Fun!</button>
+    <div id="emoji" class="collapse">
+    <div class="container-fluid padding">
+    <div class="row text-center">
+        <div class="col-sm-6 col-md-3">
+            <img class="gif smile" src="https://media.giphy.com/media/AWNxDbtHGIJDW/giphy.gif">
+        </div>
+        <div class="col-sm-6 col-md-3">
+            <img class="gif question" src="https://media.giphy.com/media/138soHYfxnxfbi/giphy.gif">
+        </div>
+        <div class="col-sm-6 col-md-3">
+            <img class="gif burger" src="https://media.giphy.com/media/BY5ZYWgwnrSaA/giphy.gif">
+        </div>
+        <div class="col-sm-6 col-md-3">
+            <img class="gif love" src="https://media.giphy.com/media/ZH5z48G5Qdtsc/giphy.gif">
+        </div>
+    </div>
+    </div>
+    </div>
+    <!-- Meet the team -->
+    <div class="container-fluid padding">
+    <div class="row welcome text-center">
+        <div class="col-12">
+            <h1 class="display-4">Suspendisse at vulputate.</h1>
+        </div>
+        <hr>
+    </div>
+    </div>
+    <!-- Cards -->
+    <div class="container-fluid padding">
+    <div class="row padding">
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="img/team1.jpg">
+                <div class="card-body">
+                    <h4 class="card-title">Ash Blanc</h4>
+                    <p class="card-text">Curabitur egestas quam sit amet dui iaculis, a maximus nunc.</p>
+                    <a herf="#" class="btn btn-outline-secondary">See Profile</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="img/team2.jpg">
+                <div class="card-body">
+                    <h4 class="card-title">Julie Vander</h4>
+                    <p class="card-text">In eros arcu, aliquam vel tempor ac, rhoncus et tellus, egestas.</p>
+                    <a herf="#" class="btn btn-outline-secondary">See Profile</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="img/team3.jpg">
+                <div class="card-body">
+                    <h4 class="card-title">Rudy Rue</h4>
+                    <p class="card-text">Quisque efficitur non nunc rutrum sagittis. Suspendisse ru.</p>
+                    <a herf="#" class="btn btn-outline-secondary">See Profile</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    </div>
+    <!-- Two Column Section -->
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-lg-6">
+                <h2>Orci varius.</h2>
+                <p>Aliquam fermentum placerat aliquam. Ut eget egestas libero. Fusce diam nisi, finibus vitae mattis sit amet, bibendum sed eros. Praesent congue metus.</p>
+                <p>Pellentesque nulla urna, vehicula quis lobortis nec, bibendum ac sem. Donec et nunc ac sapien scelerisque consectetur. Nunc id massa turpis. Maecenas suscipit accumsan interdum. Praesent eu auctor purus, sit amet venenatis odio. Vivamus ac risus accumsan, vulputate sapien at, sagittis neque.</p>
+                <br>
+            </div>
+            <div class="col-lg-6">
+                <img src="https://source.unsplash.com/collection/190727/500x400" class="image-fluid" alt="random image">
+            </div>
+        </div>
+        <hr class="my-4">
+    </div>
+    <!-- Connect -->
+    <div class="container-fluid padding">
+    <div class="row text-center padding">
+        <div class="col-12">
+            <h2>Connect</h2>
+        </div>
+        <div class="col-12 social padding">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+    <div class="container-fluid padding">
+    <div class="row text-center">
+        <div class="col-md-4">
+            <img src="img/itunes.png">
+            <hr class="light">
+            <p>(555) 555-5555</p>
+            <p>email@myemail.com</p>
+            <p>100 Street Name</p>
+            <p>City, State, 00000</p>
+        </div>
+        <div class="col-md-4">
+            <hr class="light">
+            <h5>Our Hours</h5>
+            <hr class="light">
+            <p>Monday - Friday: 9am - 5pm</p>
+            <p>Saturday: 10am - 4pm</p>
+            <p>Sunday: closed</p>
+        </div>
+        <div class="col-md-4">
+            <hr class="light">
+            <h5>Service Area</h5>
+            <hr class="light">
+            <p>City, State, 00000</p>
+            <p>City, State, 00000</p>
+            <p>City, State, 00000</p>
+            <p>City, State, 00000</p>  
+        </div>
+        <div class="col-12">
+            <hr class="light-100">
+            <h5>&copy; Your Name 2018</h5>
+        </div>
+    </div>
+    </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
